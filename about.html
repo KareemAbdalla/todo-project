@@ -4,54 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/about.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>ToDos</h1>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about.html">About us</a></li>
-                <li>Download</li>
-            </ul>
-        </nav>
-        <img src="https://to-do-cdn.microsoft.com/static-assets/c87265a87f887380a04cf21925a56539b29364b51ae53e089c3ee2b2180148c6/icons/logo.png" alt="Logo" height="15" width="15">
-
-    </header>
-
+        <nav class="nav-bar">
+            <div class="logo">
+                 <img src="https://to-do-cdn.microsoft.com/static-assets/c87265a87f887380a04cf21925a56539b29364b51ae53e089c3ee2b2180148c6/icons/logo.png" alt="Logo" width="75">
+            </div>
+            <div class="list">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </div>
+        </nav> 
+    </header> 
     <main>
-        <section>
-            <form>
-                <label for="name">name</label>
-                <input type="text">
-                <br>
-                <label for="description">description</label>
-                <input type="text">
-            </form> 
+        <section class="main-sec">
+            <div class="img-sec">
+                <img src="assets/image.png" alt="" width="400">
+
+            </div>
+            <div class="body-sec">
+                <div class="title">
+                    <h2>Your Name</h2>
+                </div>
+                <div class="description">
+                    <h4>Overview About Yourself</h4>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <form>
-                <label for="name">name</label>
-                <input type="text">
-                <br>
-                <label for="email">email</label>
-                <input type="email">
-                <br>
-                <label for="message">message</label>
-                <input type="text">
-            </form>
+        <section class="Info">
+            <h2 class="text-center color-red">Contact Me</h2>
+            <div class="form-div">
+                <form>
+                    <div class="form-group">
+                        <label for="name"Full Name>Full Name:</label>
+                        <input type="text">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="number">Phone:</label>
+                        <input type="number">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <input type="text" style="height: 100px;">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
+        <br><br>
+        <footer>
+            <p>
+            &copy; copyright 2022
+            for more info please contact 0795771301
+            </p>  
+        </footer>
     </main>
 
-    <footer>
-        <p>
-            &copy; copyright 2022
-            <br>
-            for more info please contact 0795771301
-        </p>  
-    </footer>
 
 </body>
 </html>
