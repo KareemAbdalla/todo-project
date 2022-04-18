@@ -5,56 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
     <title>ToDos</title>
 </head>
 
 
 <body>
     <header>
-        <h1>ToDos</h1>
-        <img src="https://to-do-cdn.microsoft.com/static-assets/c87265a87f887380a04cf21925a56539b29364b51ae53e089c3ee2b2180148c6/icons/logo.png" alt="Logo" height="15" width="15">
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about.html">About us</a></li>
-                <li>Download</li>
-            </ul>
+        <nav class="nav-bar">
+            <div class="logo">
+                 <img src="https://to-do-cdn.microsoft.com/static-assets/c87265a87f887380a04cf21925a56539b29364b51ae53e089c3ee2b2180148c6/icons/logo.png" alt="Logo" width="75">
+            </div>
+            <div class="list">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </div>
         </nav> 
     </header> 
-    
+    <br>
     <main>
-            <table>
-                <thead>
-                    <tr>
-                        <td>Task</td>
-                        <td>Status</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Study</td>
-                        <td>Done</td>
-                    </tr>
-
-                    <tr>
-                        <td>Train</td>
-                        <td>in progress</td>
-                    </tr>
-                    <tr>
-                        <td>Break</td>
-                        <td>ToDo</td>
-                    </tr>
-                </tbody>
-            </table>
+        <h2 class="center-text">To Do List</h2>
+        <section>
+            <div class="table-div">
+                    <table class="table"> 
+                        <thead>
+                            <tr>
+                                <th>Task</td>
+                                <th>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Study</td>
+                                <td class="done">Done</td>
+                            </tr>
+        
+                            <tr>
+                                <td>Train</td>
+                                <td class="in">in progress</td>
+                            </tr>
+                            <tr>
+                                <td>Break</td>
+                                <td class="todo">ToDo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </section>
+        
+        <br><br>
+        <footer>
+            <p>
+            &copy; copyright 2022
+            for more info please contact 0795771301
+            </p>  
+        </footer>
+      
     </main>
 
  
-    <footer>
-        <p>
-        &copy; copyright 2022
-        for more info please contact 0795771301
-        </p>  
-    </footer>
 
 
 </body>
