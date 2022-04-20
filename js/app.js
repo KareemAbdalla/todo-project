@@ -16,7 +16,7 @@ if(age <= 0)
     {
         alert("Hello Ms." + name);
     }
-    else (confirmMsg == true)
+    else if (gender != 'm' || gender != 'M' || gender != 'F' || gender != 'f' && confirmMsg == true)
     {
         alert("Hello " + name);
     }
