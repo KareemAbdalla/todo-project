@@ -28,9 +28,7 @@ if(usage == ""){
 
 const answers = [name, gender, age, job, mStatus, usage];
 console.log(answers)
-//for(let i = 0 ; i < answers.length ; i++){
-//    console.log(answers[i])
-//}
+
 
 if(minAge <= 0)
 {alert("The Age Must Be More Than Zero")}
